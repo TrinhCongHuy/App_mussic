@@ -159,13 +159,6 @@
 
 /* TABLET AIR width >= 740px */
 @media (min-width: 46.1875em) {
-    /* .sidebar {
-        position: fixed;
-        top: 0;
-        left: 0;
-        overflow-y: hidden;
-        overflow-y: auto;
-    } */
     .sidebar::-webkit-scrollbar {
     width: 4px;
 }
