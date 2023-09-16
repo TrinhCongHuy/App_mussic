@@ -108,8 +108,7 @@
         height: 100%;
         top: 0;
         right: 0;
-    }
-    
+    } 
 }
 
 @media only screen and (max-width: 51.25em) {
@@ -197,7 +196,6 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 20%;
         margin-top: 3px;
     }
     .sidebar_menu-mobile .sidebar-item i {
@@ -309,7 +307,6 @@
         bottom: 53px;
         line-height: 60px;
         align-items: center;
-        /* background: url(./src/img/Background/BG01.jpg); */
         z-index: 100;
     }
     .option_all-playlist-item {
