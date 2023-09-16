@@ -1,0 +1,1246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Zing mp3</title>
+    <link rel="icon" href="./src/img/product-logo/zing-logo.svg" type="image/gif" sizes="16x16">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="grid.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    
+</head>
+
+<body class="main" style="background-image: url('./src/img/Background/BG_main.svg');">
+    <!-- START -->
+    <!-- App music mp3 -->
+    <div class="app">
+        <div class="grip">
+            <div class="app-music">
+
+                <!--===== Sidebar =====-->
+
+                <div class="sidebar mobile-hiden">
+                    <!-- sidebar-logo -->
+                    <div class="sidebar-logo">
+                        <img src="./src/img/logo/logo-app.svg" alt="Logo_app">
+                    </div>
+                    <!-- sidebar-menu -->
+                    <div class="sidebar-menu">
+                        <ul class="sidebar-list">
+                            <li class="sidebar-item sidebar-personal sidebar_item-active">
+                                <i class="side-icon fas fa-play-circle"></i>
+                                <p>Cá nhân</p>
+                            </li>
+                            <li class="sidebar-item sidebar-discover">
+                                <i class="side-icon fas fa-compact-disc"></i>
+                                <p>Khám phá</p>
+                            </li>
+                            <li class="sidebar-item sidebar-zingchart">
+                                <i class="side-icon fas fa-chart-line"></i>
+                                <p>#zingchart</p>
+                            </li>
+                            <li class="sidebar-item sidebar_radio">
+                                <i class="side-icon fas fa-broadcast-tower"></i>
+                                <p>Radio</p>
+                                <span>Live</span>
+                            </li>
+                            <li class="sidebar-item sidebar_follow">
+                                <i class="side-icon fas fa-list-alt"></i>
+                                <p>Theo dõi</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- sidebar-library -->
+                    <div class="sidebar-library">
+                        <ul class="sidebar_library-list">
+
+                            <li class="sidebar-item">
+                                <i class="side-icon fas fa-music"></i>
+                                <p>Music</p>
+                            </li>
+                            <li class="sidebar-item">
+                                <i class="side-icon fab fa-buromobelexperte"></i>
+                                <p>Thể loại</p>
+                            </li>
+                            <li class="sidebar-item">
+                                <i class="side-icon fas fa-star"></i>
+                                <p>Top 100</p>
+                            </li>
+                            <li class="sidebar-item">
+                                <i class="side-icon fas fa-photo-video"></i>
+                                <p>MV</p>
+                            </li>
+                            <div class="sidebar_library-center">
+                                <span class="sidebar_library-content">Nghe nhạc không quảng cáo cùng kho nhạc VIP</span>
+                                <span class="sidebar_library-vip">NÂNG CẤP VID</span>
+                            </div>
+
+                            <!-- sidebar_library-bot -->
+
+                            <div class="sidebar_library-bot-heading">
+                                <p>THƯ VIỆN</p>
+                                <i class="icon-pencil fas fa-pencil-alt"></i>
+                            </div>
+                            
+                            <ul class="sidebar_library-bot-list">
+                                <!--sidebar-item -->
+                                <li class="sidebar-item">
+                                    <i class="side-icon fas fa-music"></i>
+                                    <p>Bài hát</p>
+                                </li>
+                                <li class="sidebar-item">
+                                    <i class="side-icon fas fa-file-audio"></i>
+                                    <p>Playlish</p>
+                                </li>
+                                <li class="sidebar-item">
+                                    <i class="side-icon fas fa-clock"></i>
+                                    <p>Gần đây</p>
+                                </li>
+                                <!-- sidebar_library-bot-item -->
+                                <li class="sidebar_library-bot-item">
+                                    <p>Replay</p>
+                                    <i class="side-icon fas fa-ellipsis-h"></i>
+                                </li>
+                                <li class="sidebar_library-bot-item">
+                                    <p>Nhạc xuân</p>
+                                    <i class="side-icon fas fa-ellipsis-h"></i>
+                                </li>
+                                <li class="sidebar_library-bot-item">
+                                    <p>Nhạc Trung Quốc</p>
+                                    <i class="side-icon fas fa-ellipsis-h"></i>
+                                </li>
+                            </ul>
+                            
+                        </ul>
+                    </div>
+                    <!-- sidebar_add-playlish -->
+                    <div class="sidebar_add-playlish">
+                        <i class="icon-plus fas fa-plus"></i>
+                        <span>Tạo playlish mới</span>
+                    </div>
+                </div>
+                <div class="sidebar_menu-mobile mobile-show">
+                    <ul class="sidebar-list">
+                        <li class="sidebar-item sidebar-personal">
+                            <i class="side-icon fas fa-play-circle"></i>
+                            <p>Cá nhân</p>
+                        </li>
+                        <li class="sidebar-item sidebar-discover">
+                            <i class="side-icon fas fa-compact-disc"></i>
+                            <p>Khám phá</p>
+                        </li>
+                        <li class="sidebar-item sidebar-zingchart">
+                            <i class="side-icon fas fa-chart-line"></i>
+                            <p>#zingchart</p>
+                        </li>
+                        <li class="sidebar-item sidebar_radio">
+                            <i class="side-icon fas fa-broadcast-tower"></i>
+                            <p>Radio</p>
+                        </li>
+                        <li class="sidebar-item sidebar_follow">
+                            <i class="side-icon fas fa-list-alt"></i>
+                            <p>Theo dõi</p>
+                        </li>
+                    </ul>
+                </div>
+
+                <!--===== Main container =====-->
+
+                <div class="main-container">
+                    <!-- header -->
+                    <header class="header">
+                    <!-- icon arrow -->
+                        <i class="icon_directional-left mobile-hiden fas fa-arrow-left"></i>
+                        <i class="icon_directional-right mobile-hiden fas fa-arrow-right"></i>
+                        
+                        <!-- header width search -->
+                        <div class="header_width-search">
+                            <i class="icon-search fas fa-search"></i>
+                            <input class="searchInput" type="text" placeholder="Nhập tên bài hát, nghệ sĩ hoặc MV...">
+                            
+                            <div class="header_width-search-sub">
+                                <span class="header_width-search-sub-title">
+                                    Đề xuất cho bạn
+                                </span>
+                                <ul class="header_width-search-sub-list">
+                                    <li class="header_width-search-sub-item">
+                                        <i class="fas fa-search"></i>
+                                        <p>Bạn vào đây tìm gì vậy</p>
+                                    </li>
+                                    <li class="header_width-search-sub-item">
+                                        <i class="fas fa-search"></i>
+                                        <p>Tìm người yêu đúng không</p>
+                                    </li>
+                                    <li class="header_width-search-sub-item">
+                                        <i class="fas fa-search"></i>
+                                        <p>Chúc mừng bạn</p>
+                                    </li>
+                                    <li class="header_width-search-sub-item">
+                                        <i class="fas fa-search"></i>
+                                        <p>Đã quay vào ô</p>
+                                    </li>
+                                    <li class="header_width-search-sub-item">
+                                        <i class="fas fa-search"></i>
+                                        <p>MAY MẮN</p>
+                                    </li>
+                                    <li class="header_width-search-sub-item">
+                                        <i class="fas fa-search"></i>
+                                        <p>Lew lew</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            
+                        </div>
+                        <div class="layer"></div>
+                        <!-- header right -->
+                        <div class="header-right">
+                            <div class="header-theme">
+                                <i class="fas fa-tshirt"></i>
+                            </div>
+                            <div class="header-upload">
+                                <i class="fas fa-upload"></i>
+                            </div>
+                            <div class="header-setting">
+                                <i class="fas fa-cog"></i>
+                            </div>
+                            <a href="https://www.facebook.com/conghuy.trinh.505">
+                                <img class="img-author" src="./src/img/profile/profile-img.jpg" alt="image author">
+                            </a>
+                            <div class="layer"></div>
+                            <!-- Theme list -->
+                            <div class="theme-list">
+                                <div class="theme_modal-heading">
+                                    <h3>Giao diện</h3>
+                                    <i class="icon-theme fas fa-times"></i>
+                                </div>
+                                <div class="theme_modal-group">
+                                    <!-- Chủ đề -->
+                                    <span class="theme_modal-group-title">Chủ đề</span>
+                                    <div class="theme_modal-group-list">
+                                        <div class="theme_modal-group-item">
+                                            <div class="theme_modal-group-item-img">
+                                                <img src="./src/img/Background/BG_main.svg" alt="">
+                                            </div>
+                                            <span class="theme_modal-group-item-name">
+                                                Zing Music Awards
+                                            </span>
+                                        </div>
+                                        
+                                        <div class="theme_modal-group-item">
+                                            <div class="theme_modal-group-item-img">
+                                                <img src="./src/img/Theme/theme2.jpg" alt="">
+                                            </div>
+                                            <span class="theme_modal-group-item-name">
+                                                Tháp Eiffel
+                                            </span>
+                                        </div>
+                                    </div>
+
+                                    <!-- Nghệ sĩ -->
+                                    <span class="theme_modal-group-title">Nghệ Sĩ</span>
+                                    <div class="theme_modal-group-list">
+                                        <div class="theme_modal-group-item">
+                                            <div class="theme_modal-group-item-img">
+                                                <img src="./src/img/Background/BG03.jpg" alt="">
+                                            </div>
+                                            <span class="theme_modal-group-item-name">
+                                                Rosé
+                                            </span>
+                                        </div>
+                                        
+                                        <div class="theme_modal-group-item">
+                                            <div class="theme_modal-group-item-img">
+                                                <img src="./src/img/Background/BG04.jpg" alt="">
+                                            </div>
+                                            <span class="theme_modal-group-item-name">
+                                                IU
+                                            </span>
+                                        </div>
+
+                                        <div class="theme_modal-group-item">
+                                            <div class="theme_modal-group-item-img">
+                                                <img src="./src/img/Background/BG05.jpg" alt="">
+                                            </div>
+                                            <span class="theme_modal-group-item-name">
+                                                Ji Chang Wook
+                                            </span>
+                                        </div>
+                                        <div class="theme_modal-group-item">
+                                            <div class="theme_modal-group-item-img">
+                                                <img src="./src/img/Background/BG06.jpg" alt="">
+                                            </div>
+                                            <span class="theme_modal-group-item-name">
+                                                Lisa
+                                            </span>
+                                        </div>
+                                        <div class="theme_modal-group-item">
+                                            <div class="theme_modal-group-item-img">
+                                                <img src="./src/img/Background/BG07.jpg" alt="">
+                                            </div>
+                                            <span class="theme_modal-group-item-name">
+                                                Jennie Kim
+                                            </span>
+                                        </div>
+                                        <div class="theme_modal-group-item">
+                                            <div class="theme_modal-group-item-img">
+                                                <img src="./src/img/Background/BG08.jpg" alt="">
+                                            </div>
+                                            <span class="theme_modal-group-item-name">
+                                                Jisoo
+                                            </span>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <!-- Header setting list -->
+                            <div class="header_setting-overlay">
+                                <ul class="header_setting-list">
+                                    <li class="header_setting-item">
+                                        <i class="fas fa-ban"></i>
+                                        <p>Danh sách chặn</p>
+                                    </li>
+                                    <li class="header_setting-item">
+                                        <i class="fas fa-play-circle"></i>
+                                        <p>Chất lượng nhạc</p>
+                                    </li>
+                                    <li class="header_setting-item">
+                                        <i class="fas fa-external-link-square-alt"></i>
+                                        <p>Trình phát nhạc</p>
+                                    </li>
+                                </ul>
+
+                                <ul class="header_setting-list">
+                                    <li class="header_setting-item">
+                                        <i class="fas fa-info-circle"></i>
+                                        <p>Giới thiệu</p>
+                                    </li>
+                                    <li class="header_setting-item">
+                                        <i class="far fa-flag"></i>
+                                        <p>Góp ý</p>
+                                    </li>
+                                    <li class="header_setting-item">
+                                        <i class="fas fa-phone-alt"></i>
+                                        <p>Liên hệ</p>
+                                    </li>
+                                    <li class="header_setting-item">
+                                        <i class="fab fa-adversal"></i>
+                                        <p>Quảng cáo</p>
+                                    </li>
+                                    <li class="header_setting-item">
+                                        <i class="fas fa-notes-medical"></i>
+                                        <p>Thỏa thuận sử dụng</p>
+                                    </li>
+                                    <li class="header_setting-item">
+                                        <i class="fas fa-shield-alt"></i>
+                                        <p>Chính sách bảo mật</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </header>
+                    <!-- home product -->
+                    <div class="home-product">
+
+                        <!-- main container pertional -->
+                        <div class="main_container-pertional">
+                            <!-- profile -->
+                            <div class="profile">
+                            <a href="https://www.facebook.com/conghuy.trinh.505">
+                                <img class="img-owner" src="./src/img/profile/profile-img.jpg" alt="image author">
+                            </a>
+                            <span class="profile-name">
+                                Trịnh Công Huy
+                            </span>
+                            <div class="profile_vip">
+                                <span class="profile_vip-upgrate">
+                                    NÂNG CẤP VIP
+                                </span>
+                                <span class="profile_vip-entercode">
+                                    NHẬP CODE VIP
+                                </span>
+                                <span class="profile_vip-option">
+                                    <i class="fas fa-ellipsis-h"></i>
+                                </span>
+                            </div>
+                            </div>
+                            <!-- music option -->
+                            <div class="music-option">
+                            <ul class="music_option-list">
+                                    <li class="music_option-item tab-item">
+                                        <a href="#">TỔNG QUAN</a> 
+                                    </li>
+                                    <li class="music_option-item">
+                                        <a href="#">BÀI HÁT</a> 
+                                    </li> 
+                                    <li class="music_option-item">
+                                        <a href="#playlist">PLAYLIST</a> 
+                                    </li> 
+                                    <li class="music_option-item">
+                                        <a href="#artist">NGHỆ SĨ</a> 
+                                    </li>
+                                    <li class="music_option-item">
+                                        <i class="fas fa-ellipsis-h"></i>
+                                    </li>
+                                
+                                
+                            </ul>
+                            </div>
+                            <!-- option heading -->
+                            <div class="option_heading">
+                            <h3 class="option_heading-name">Bài hát</h3>
+                            <div class="option_heading-all">
+                                <div class="more-list">
+                                    <span>TẤT CẢ</span>
+                                    <i class="icon-chevron fas fa-chevron-right"></i>
+                                </div>
+                                <div class="option_heading-all-upload">
+                                    <i class="fas fa-upload"></i>
+                                    TẢI LÊN
+                                </div>
+                                <div class="option_heading-all-playAll">
+                                    <i class="fas fa-play"></i>
+                                    PHÁT TẤT CẢ
+                                </div>
+                            </div>
+                            </div>
+                            <!-- Song list and img -->
+                            <div class="option-all">
+
+                            <div class="grid row">
+                                <!-- img -->
+                                <div class="col l-3 m-0 c-0">
+                                    <div class="option__all-song-slider">
+                                        
+                                            <img src="./src/img/songImg/chu_thuy_quynh.jpg" alt="" class="option__all-song-slider-img option__all-song-slider-img-first">
+                                        
+                                            <img src="./src/img/songImg/duc_phuc.jpg" alt="" class="option__all-song-slider-img option__all-song-slider-img-second">
+                                           
+                                            <img src="./src/img/songImg/huong_ly.jpg" alt="" class="option__all-song-slider-img option__all-song-slider-img-third">
+                                           
+                                            <img src="./src/img/songImg/kay_tran.jpg" alt="" class="option__all-song-slider-img option__all-song-slider-img-third">
+                                           
+                                            <img src="./src/img/songImg/son_tung.jpg" alt="" class="option__all-song-slider-img option__all-song-slider-img-third">
+                                            
+                                            <img src="./src/img/songImg/huynhvan_vuphungtien.jpg" alt="" class="option__all-song-slider-img option__all-song-slider-img-third">
+
+                                            <img src="./src/img/songImg/Tarouz.jpg" alt="" class="option__all-song-slider-img option__all-song-slider-img-third">
+
+                                            <img src="./src/img/songImg/woni.jpg" alt="" class="option__all-song-slider-img option__all-song-slider-img-third">
+
+                                            <img src="./src/img/songImg/hoang_thuy_linh.jpg" alt="" class="option__all-song-slider-img option__all-song-slider-img-third">
+                                        
+                                    </div>
+                                </div>
+                                <!-- song list -->
+                                <div class="col l-9 m-12 c-12">
+                                    <div class="playlist">
+                                        <div class="song">
+                                            <i class="icon_song fas fa-music"></i>
+                                            <div class="thumb" style="background-image: url('./src/img/songImg/chu_thuy_quynh.jpg')">
+                                                <i class="fas fa-play"></i>
+                                            </div>
+                                            <div class="body">
+                                                <h3 class="title">Yêu 3 năm dại 1 giờ</h3>
+                                                <p class="author">Chu Thái Quỳnh</p>
+                                            </div>
+                                            <div class="song_item-tym">
+                                                <i class="fas fa-heart"></i>
+                                            </div>
+                                            <div class="option">
+                                                <i class="fas fa-ellipsis-h"></i>
+                                            </div>
+                                            <div class="song_options">
+                                                <!-- option top -->
+                                                <ul class="song_option-list-top">
+                                                    <li class="song_option-top-item">
+                                                        <i class="fas fa-download"></i>
+                                                        <span>Tải xuống</span>
+                                                    </li>
+                                                    <li class="song_option-top-item">
+                                                        <i class="fas fa-pen"></i>
+                                                        <span>Lời bài hát</span>
+                                                    </li>
+                                                    <li class="song_option-top-item">
+                                                        <i class="fas fa-ban"></i>
+                                                        <span>Chặn</span>
+                                                    </li>
+                                                </ul>
+                                                <!-- option bottom -->
+                                                <ul class="song_option-list-bottom">
+                                                    <li class="song_option-bottom-item">
+                                                        <i class="fas fa-play"></i>
+                                                        <span>Thêm vào danh sách phát</span>
+                                                    </li>
+                                                    <li class="song_option-bottom-item">
+                                                        <i class="fas fa-play-circle"></i>
+                                                        <span>Phát tiếp theo</span>
+                                                    </li>
+                                                    <li class="song_option-bottom-item">
+                                                        <i class="fas fa-plus-circle"></i>
+                                                        <span>Thêm vào playlist</span>
+                                                        <i class="icon-right fas fa-angle-right"></i>
+                                                    </li>
+                                                    <li class="song_option-bottom-item">
+                                                        <i class="fas fa-comment"></i>
+                                                        <span>Bình luận</span>
+                                                    </li>
+                                                    <li class="song_option-bottom-item">
+                                                        <i class="fas fa-link"></i>
+                                                        <span>Sao chép link</span>
+                                                    </li>
+                                                    <li class="song_option-bottom-item">
+                                                        <i class="fas fa-share"></i>
+                                                        <span>Chia sẻ</span>
+                                                        <i class="icon-right fas fa-angle-right"></i>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            </div>
+                            <!-- Playlist -->
+                            <div id="playlist" class="option_all-playlist">
+                          
+                                <div class="playlist_heading">
+                                    <h3 class="playlist_heading-name">Playlist</h3>
+                                    <div class="more-list">
+                                        <span>TẤT CẢ</span>
+                                        <i class="icon-chevron fas fa-chevron-right"></i>
+                                    </div>
+                                </div> 
+
+                                <div class="option_all-playlist-list">
+                                    <div class="row">
+                                        <div class="col l-2-4 m-3 c-6">
+                                            <div class="option_all-playlist-item-new">
+                                                <i class="icon-plus fas fa-plus"></i>
+                                                <span>Tạo playlist mới</span>
+                                            </div>
+                                        </div>
+                                        <div class="col l-2-4 m-3 c-6">
+                                            <div class="option_all-playlist-item">
+                                                <div class="option_all-playlist-item-img">
+                                                    <img src="./src/img/playlist/img01.webp" alt="">
+                                                    <i class="fas fa-play"></i>
+                                                </div>
+                                                <div class="option_all-playlist-title-name">
+                                                    Replay
+                                                </div>
+                                                <div class="option_all-playlist-source-name">
+                                                    Trịnh Công Huy
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col l-2-4 m-3 c-6">
+                                            <div class="option_all-playlist-item">
+                                                <div class="option_all-playlist-item-img">
+                                                    <img src="./src/img/playlist/img02.webp" alt="">
+                                                    <i class="fas fa-play"></i>
+                                                </div>
+                                                <div class="option_all-playlist-title-name">
+                                                    4U-On Repeat
+                                                </div>
+                                                <div class="option_all-playlist-source-name">
+                                                    Zing MP3
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col l-2-4 m-3 c-6">
+                                            <div class="option_all-playlist-item">
+                                                <div class="option_all-playlist-item-img">
+                                                    <img src="./src/img/playlist/img03.webp" alt="">
+                                                    <i class="fas fa-play"></i>
+                                                </div>
+                                                <div class="option_all-playlist-title-name">
+                                                    #zingchart
+                                                </div>
+                                                <div class="option_all-playlist-source-name">
+                                                    Zing MP3
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col l-2-4 m-3 c-6">
+                                            <div class="option_all-playlist-item">
+                                                <div class="option_all-playlist-item-img">
+                                                    <img src="./src/img/playlist/img04.webp" alt="">
+                                                    <i class="fas fa-play"></i>
+                                                </div>
+                                                <div class="option_all-playlist-title-name">
+                                                    Nhạc của tôi
+                                                </div>
+                                                <div class="option_all-playlist-source-name">
+                                                    Zing MP3
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                            </div>
+                            <!-- MV -->
+                            <div class="option_all-playlist">
+                          
+                            <div class="playlist_heading">
+                                <h3 class="playlist_heading-name">MV</h3>
+                                <div class="more-list">
+                                    <span>TẤT CẢ</span>
+                                    <i class="icon-chevron fas fa-chevron-right"></i>
+                                </div>
+                            </div> 
+
+                            <div class="option_all-playlist-list">
+                                <div class="row">
+                                    <div class="col l-4 m-4 c-12">
+                                        <div class="option_all-playlist-item">
+                                            <div class="option_all-playlist-item-img">
+                                                <img src="./src/img/songImg/kay_tran.jpg" alt="">
+                                                <i class="fas fa-play"></i>
+                                            </div>
+                                            <div class="option_all-playlist-information">
+                                                <img src="./src/img/songImg/kay_tran.jpg" alt="">
+                                                <div class="option_all-playlist-img-author">
+                                                    <div class="option_all-playlist-title-name">
+                                                        Phía sau em
+                                                    </div>
+                                                    <div class="option_all-playlist-source-name">
+                                                        Kay Trần
+                                                    </div>
+                                                </div>       
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                    <div class="col l-4 m-4 c-12">
+                                        <div class="option_all-playlist-item">
+                                            <div class="option_all-playlist-item-img">
+                                                <img src="./src/img/songImg/huong_ly.jpg" alt="">
+                                                <i class="fas fa-play"></i>
+                                            </div>
+                                            <div class="option_all-playlist-information">
+                                                <img src="./src/img/songImg/huong_ly.jpg" alt="">
+                                                <div class="option_all-playlist-img-author">
+                                                    <div class="option_all-playlist-title-name">
+                                                        Vui lắm nha
+                                                    </div>
+                                                    <div class="option_all-playlist-source-name">
+                                                        Hương Ly
+                                                    </div>
+                                                </div>  
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col l-4 m-4 c-12">
+                                        <div class="option_all-playlist-item">
+                                            <div class="option_all-playlist-item-img">
+                                                <img src="./src/img/songImg/hoang_thuy_linh.jpg" alt="">
+                                                <i class="fas fa-play"></i>
+                                            </div>
+                                            <div class="option_all-playlist-information">
+                                                <img src="./src/img/songImg/hoang_thuy_linh.jpg" alt="">
+                                                <div class="option_all-playlist-img-author">
+                                                    <div class="option_all-playlist-title-name">
+                                                        Gieo quẻ
+                                                    </div>
+                                                    <div class="option_all-playlist-source-name">
+                                                        Hoàng Thùy Linh
+                                                    </div>
+                                                </div>   
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        
+                            </div>
+                            <!-- Nghệ sĩ -->
+                            <div id="artist" class="option_all-playlist">
+                          
+                            <div class="playlist_heading">
+                                <h3 class="playlist_heading-name">Nghệ sĩ</h3>
+                                <div class="more-list">
+                                    <span>TẤT CẢ</span>
+                                    <i class="icon-chevron fas fa-chevron-right"></i>
+                                </div>
+                            </div> 
+
+                            <div class="option_all-playlist-list">
+                                <div class="row">
+                                    <div class="col l-2-4 m-4 c-6">
+                                        <div class="option_all-playlist-author">
+                                            <div class="option_all-playlist-author-img">
+                                                <img src="./src/img/songImg/duc_phuc.jpg" alt="">
+                                                <i class="fas fa-play"></i>
+                                            </div>
+                                            <div class="option_all-playlist-author-name">
+                                                Đức Phúc
+                                            </div>
+                                            <div class="option_all-playlist-author-follow">
+                                                500K quan tâm
+                                            </div>
+                                            <div class="option_all-playlist-author-profile">
+                                                <i class="fas fa-random"></i>
+                                                <span>GÓC NHẠC</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col l-2-4 m-4 c-6">
+                                        <div class="option_all-playlist-author">
+                                            <div class="option_all-playlist-author-img">
+                                                <img src="./src/img/songImg/woni.jpg" alt="">
+                                                <i class="fas fa-play"></i>
+                                            </div>
+                                            <div class="option_all-playlist-author-name">
+                                                Woni
+                                            </div>
+                                            <div class="option_all-playlist-author-follow">
+                                                600K quan tâm
+                                            </div>
+                                            <div class="option_all-playlist-author-profile">
+                                                <i class="fas fa-random"></i>
+                                                <span>GÓC NHẠC</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col l-2-4 m-4 c-6">
+                                        <div class="option_all-playlist-author">
+                                            <div class="option_all-playlist-author-img">
+                                                <img src="./src/img/songImg/nguyen_thach_bao_ngoc.jpg" alt="">
+                                                <i class="fas fa-play"></i>
+                                            </div>
+                                            <div class="option_all-playlist-author-name">
+                                               Bảo Ngọc
+                                            </div>
+                                            <div class="option_all-playlist-author-follow">
+                                                700K quan tâm
+                                            </div>
+                                            <div class="option_all-playlist-author-profile">
+                                                <i class="fas fa-random"></i>
+                                                <span>GÓC NHẠC</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col l-2-4 m-4 c-6">
+                                        <div class="option_all-playlist-author">
+                                            <div class="option_all-playlist-author-img">
+                                                <img src="./src/img/songImg/son_tung.jpg" alt="">
+                                                <i class="fas fa-play"></i>
+                                            </div>
+                                            <div class="option_all-playlist-author-name">
+                                                Sơn Tùng
+                                            </div>
+                                            <div class="option_all-playlist-author-follow">
+                                                800K quan tâm
+                                            </div>
+                                            <div class="option_all-playlist-author-profile">
+                                                <i class="fas fa-random"></i>
+                                                <span>GÓC NHẠC</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col l-2-4 m-4 c-6">
+                                        <div class="option_all-playlist-author">
+                                            <div class="option_all-playlist-author-img">
+                                                <img src="./src/img/songImg/Tarouz.jpg" alt="">
+                                                <i class="fas fa-play"></i>
+                                            </div>
+                                            <div class="option_all-playlist-author-name">
+                                                Tarouz
+                                            </div>
+                                            <div class="option_all-playlist-author-follow">
+                                                900K quan tâm
+                                            </div>
+                                            <div class="option_all-playlist-author-profile">
+                                                <i class="fas fa-random"></i>
+                                                <span>GÓC NHẠC</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            </div>
+                        </div>
+
+                        <!-- main container discover -->
+                        <div id="discover" class="main_container-discover">
+                            <!-- Playlist -->
+                            <div id="playlist" class="option_all-playlist">
+                          
+                                <div class="playlist_heading">
+                                    <h3 class="playlist_heading-name">Playlist</h3>
+                                    <div class="more-list">
+                                        <span>TẤT CẢ</span>
+                                        <i class="icon-chevron fas fa-chevron-right"></i>
+                                    </div>
+                                </div> 
+
+                                <div class="option_all-playlist-list">
+                                    <div class="row">
+                                        <div class="col l-2-4 m-3 c-6">
+                                            <div class="option_all-playlist-item-new">
+                                                <i class="icon-plus fas fa-plus"></i>
+                                                <span>Tạo playlist mới</span>
+                                            </div>
+                                        </div>
+                                        <div class="col l-2-4 m-3 c-6">
+                                            <div class="option_all-playlist-item">
+                                                <div class="option_all-playlist-item-img">
+                                                    <img src="./src/img/playlist/img01.webp" alt="">
+                                                    <i class="fas fa-play"></i>
+                                                </div>
+                                                <div class="option_all-playlist-title-name">
+                                                    Replay
+                                                </div>
+                                                <div class="option_all-playlist-source-name">
+                                                    Trịnh Công Huy
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col l-2-4 m-3 c-6">
+                                            <div class="option_all-playlist-item">
+                                                <div class="option_all-playlist-item-img">
+                                                    <img src="./src/img/playlist/img02.webp" alt="">
+                                                    <i class="fas fa-play"></i>
+                                                </div>
+                                                <div class="option_all-playlist-title-name">
+                                                    4U-On Repeat
+                                                </div>
+                                                <div class="option_all-playlist-source-name">
+                                                    Zing MP3
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col l-2-4 m-3 c-6">
+                                            <div class="option_all-playlist-item">
+                                                <div class="option_all-playlist-item-img">
+                                                    <img src="./src/img/playlist/img03.webp" alt="">
+                                                    <i class="fas fa-play"></i>
+                                                </div>
+                                                <div class="option_all-playlist-title-name">
+                                                    #zingchart
+                                                </div>
+                                                <div class="option_all-playlist-source-name">
+                                                    Zing MP3
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col l-2-4 m-3 c-6">
+                                            <div class="option_all-playlist-item">
+                                                <div class="option_all-playlist-item-img">
+                                                    <img src="./src/img/playlist/img04.webp" alt="">
+                                                    <i class="fas fa-play"></i>
+                                                </div>
+                                                <div class="option_all-playlist-title-name">
+                                                    Nhạc của tôi
+                                                </div>
+                                                <div class="option_all-playlist-source-name">
+                                                    Zing MP3
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                            </div>
+                            <!-- MV -->
+                            <div class="option_all-playlist">
+                          
+                            <div class="playlist_heading">
+                                <h3 class="playlist_heading-name">MV</h3>
+                                <div class="more-list">
+                                    <span>TẤT CẢ</span>
+                                    <i class="icon-chevron fas fa-chevron-right"></i>
+                                </div>
+                            </div> 
+
+                            <div class="option_all-playlist-list">
+                                <div class="row">
+                                    <div class="col l-4 m-4 c-12">
+                                        <div class="option_all-playlist-item">
+                                            <div class="option_all-playlist-item-img">
+                                                <img src="./src/img/songImg/kay_tran.jpg" alt="">
+                                                <i class="fas fa-play"></i>
+                                            </div>
+                                            <div class="option_all-playlist-information">
+                                                <img src="./src/img/songImg/kay_tran.jpg" alt="">
+                                                <div class="option_all-playlist-img-author">
+                                                    <div class="option_all-playlist-title-name">
+                                                        Phía sau em
+                                                    </div>
+                                                    <div class="option_all-playlist-source-name">
+                                                        Kay Trần
+                                                    </div>
+                                                </div>       
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                    <div class="col l-4 m-4 c-12">
+                                        <div class="option_all-playlist-item">
+                                            <div class="option_all-playlist-item-img">
+                                                <img src="./src/img/songImg/huong_ly.jpg" alt="">
+                                                <i class="fas fa-play"></i>
+                                            </div>
+                                            <div class="option_all-playlist-information">
+                                                <img src="./src/img/songImg/huong_ly.jpg" alt="">
+                                                <div class="option_all-playlist-img-author">
+                                                    <div class="option_all-playlist-title-name">
+                                                        Vui lắm nha
+                                                    </div>
+                                                    <div class="option_all-playlist-source-name">
+                                                        Hương Ly
+                                                    </div>
+                                                </div>  
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col l-4 m-4 c-12">
+                                        <div class="option_all-playlist-item">
+                                            <div class="option_all-playlist-item-img">
+                                                <img src="./src/img/songImg/duc_phuc.jpg" alt="">
+                                                <i class="fas fa-play"></i>
+                                            </div>
+                                            <div class="option_all-playlist-information">
+                                                <img src="./src/img/songImg/duc_phuc.jpg" alt="">
+                                                <div class="option_all-playlist-img-author">
+                                                    <div class="option_all-playlist-title-name">
+                                                        Ánh nắng của anh
+                                                    </div>
+                                                    <div class="option_all-playlist-source-name">
+                                                        Đức Phúc
+                                                    </div>
+                                                </div>   
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        
+                            </div>
+                            <!-- Nghệ sĩ -->
+                            <div class="option_all-playlist">
+                          
+                            <div class="playlist_heading">
+                                <h3 class="playlist_heading-name">Nghệ sĩ</h3>
+                                <div class="more-list">
+                                    <span>TẤT CẢ</span>
+                                    <i class="icon-chevron fas fa-chevron-right"></i>
+                                </div>
+                            </div> 
+
+                            <div class="option_all-playlist-list">
+                                <div class="row">
+                                    <div class="col l-2-4 m-3 c-6">
+                                        <div class="option_all-playlist-author">
+                                            <div class="option_all-playlist-author-img">
+                                                <img src="./src/img/songImg/duc_phuc.jpg" alt="">
+                                                <i class="fas fa-play"></i>
+                                            </div>
+                                            <div class="option_all-playlist-author-name">
+                                                Đức Phúc
+                                            </div>
+                                            <div class="option_all-playlist-author-follow">
+                                                500K quan tâm
+                                            </div>
+                                            <div class="option_all-playlist-author-profile">
+                                                <i class="fas fa-random"></i>
+                                                <span>GÓC NHẠC</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col l-2-4 m-3 c-6">
+                                        <div class="option_all-playlist-author">
+                                            <div class="option_all-playlist-author-img">
+                                                <img src="./src/img/songImg/woni.jpg" alt="">
+                                                <i class="fas fa-play"></i>
+                                            </div>
+                                            <div class="option_all-playlist-author-name">
+                                                Woni
+                                            </div>
+                                            <div class="option_all-playlist-author-follow">
+                                                600K quan tâm
+                                            </div>
+                                            <div class="option_all-playlist-author-profile">
+                                                <i class="fas fa-random"></i>
+                                                <span>GÓC NHẠC</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col l-2-4 m-3 c-6">
+                                        <div class="option_all-playlist-author">
+                                            <div class="option_all-playlist-author-img">
+                                                <img src="./src/img/songImg/nguyen_thach_bao_ngoc.jpg" alt="">
+                                                <i class="fas fa-play"></i>
+                                            </div>
+                                            <div class="option_all-playlist-author-name">
+                                               Bảo Ngọc
+                                            </div>
+                                            <div class="option_all-playlist-author-follow">
+                                                700K quan tâm
+                                            </div>
+                                            <div class="option_all-playlist-author-profile">
+                                                <i class="fas fa-random"></i>
+                                                <span>GÓC NHẠC</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col l-2-4 m-3 c-6">
+                                        <div class="option_all-playlist-author">
+                                            <div class="option_all-playlist-author-img">
+                                                <img src="./src/img/songImg/son_tung.jpg" alt="">
+                                                <i class="fas fa-play"></i>
+                                            </div>
+                                            <div class="option_all-playlist-author-name">
+                                                Sơn Tùng
+                                            </div>
+                                            <div class="option_all-playlist-author-follow">
+                                                800K quan tâm
+                                            </div>
+                                            <div class="option_all-playlist-author-profile">
+                                                <i class="fas fa-random"></i>
+                                                <span>GÓC NHẠC</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col l-2-4 m-3 c-6">
+                                        <div class="option_all-playlist-author">
+                                            <div class="option_all-playlist-author-img">
+                                                <img src="./src/img/songImg/Tarouz.jpg" alt="">
+                                                <i class="fas fa-play"></i>
+                                            </div>
+                                            <div class="option_all-playlist-author-name">
+                                                Tarouz
+                                            </div>
+                                            <div class="option_all-playlist-author-follow">
+                                                900K quan tâm
+                                            </div>
+                                            <div class="option_all-playlist-author-profile">
+                                                <i class="fas fa-random"></i>
+                                                <span>GÓC NHẠC</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            </div>
+                        </div>
+
+                        <!-- main container zingchart -->
+                        <div id="zingchart" class="main_container-zingchart">
+                            <div class="zingchart_heading">
+                                #zingchart
+                            </div>
+                            <div class="zingchart_song-list">
+
+                                <div class="song">
+
+                                    <i class="icon_song fas fa-music"></i>
+                                    <div class="thumb" style="background-image: url('./src/img/songImg/chu_thuy_quynh.jpg')">
+                                        <i class="fas fa-play"></i>
+                                    </div>
+                                    <div class="body">
+                                        <h3 class="title">Yêu 3 năm dại 1 giờ</h3>
+                                        <p class="author">Chu Thái Quỳnh</p>
+                                    </div>
+                                    <div class="song_item-tym">
+                                        <i class="fas fa-heart"></i>
+                                    </div>
+                                    <div class="option">
+                                        <i class="fas fa-ellipsis-h"></i>
+                                    </div>
+
+                                </div>
+
+                            </div>  
+                            <div class="zingchart_100more">
+                                Xem top 100
+                            </div>
+                            <div class="zingchart_week-heading">
+                                Bảng Xếp Hạng Tuần
+                            </div>
+                            <div class="zingchart_week-item">
+                                <div class="zingchart_week-item-wrapper">
+                                    
+                                </div>
+                                <div class="zingchart_week-item-wrapper">
+                                    
+                                </div>
+                                <div class="zingchart_week-item-wrapper">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--===== Next song list =====-->
+
+                <div class="main_next-song table-hiden">    
+                    <!-- option -->
+                    <div class="nextSong-option">
+                        <div class="nextSong_option-wrapper">
+                            <div class="nextSong_option-wrapper-list option-wrapper active-wrapper">
+                                <span>Danh sách phát</span>
+                            </div>
+                            <div class="netSong_option-wrapper-history option-wrapper">
+                                <span>Nghe gần đây</span>
+                            </div>
+                        </div>
+                        <div class="nextSong_option-alarm">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="nextSong_option-more">
+                            <i class="fas fa-ellipsis-h"></i>
+                        </div>
+                    </div>
+                    <!-- nextSong box -->
+                    <div class="nextSong-box">
+
+                        <!-- nextSong fist -->
+                        <div class="nextSong_fist">
+
+                            <!-- <div class="nextSong_fist-item nextSong-active">
+                                <div class="thumb" style="background-image: url('./src/img/songImg/chu_thuy_quynh.jpg')">
+                                    <i class="icon-play fas fa-play"></i>
+                                </div>
+                                <div class="body">
+                                    <h3 class="title">Yêu 3 năm dại 1 giờ</h3>
+                                    <p class="author">Chu Thái Quỳnh</p>
+                                </div>
+                                <div class="song_item-tym">
+                                    <i class="fas fa-heart"></i>
+                                </div>
+                                <div class="option">
+                                    <i class="fas fa-ellipsis-h"></i>
+                                </div>
+                            </div> -->
+                        
+                        </div>
+                        <!-- nextSong list -->
+                        <div class="nextSong_list">
+                            <h3 class="nextSong_list-heading">Tiếp theo</h3>
+                            <div class="nextSong_list-last">
+
+                                <div class="nextSong_fist-item">
+                                    <div class="thumb" style="background-image: url('./src/img/songImg/chu_thuy_quynh.jpg')">
+                                        <i class="icon-play fas fa-play"></i>
+                                    </div>
+                                    <div class="body">
+                                        <h3 class="title">Yêu 3 năm dại 1 giờ</h3>
+                                        <p class="author">Chu Thái Quỳnh</p>
+                                    </div>
+                                    <div class="song_item-tym">
+                                        <i class="fas fa-heart"></i>
+                                    </div>
+                                    <div class="option">
+                                        <i class="fas fa-ellipsis-h"></i>
+                                    </div>
+                                </div>
+                            
+
+                            </div>
+                            <span class="nextSong_list-end">
+                                NULL
+                            </span>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+    
+            <!--===== footer control =====-->
+
+            <section class="footer-control">
+                <div class="main_music-control">
+                    <!-- music control left -->
+                    <div class="music_control-left">
+                        <div class="music_left-item">
+                            <div class="cdThumb" style="background-image: url('./src/img/songImg/chu_thuy_quynh.jpg')">
+                            </div>
+                            <div class="body">
+                                <h3 class="title">Yêu 3 năm dại 1 giờ</h3>
+                                <p class="author">Chu Thái Quỳnh</p>
+                            </div>
+                            <div class="song_item-tym">
+                                <i class="fas fa-heart"></i>
+                            </div>
+                            <div class="option">
+                                <i class="fas fa-ellipsis-h"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- music control center -->
+                    <div class="music_control-center">
+                        <div class="music_control-center-active">
+                            <div class="btn btn-repeat">
+                                <i class="fas fa-redo"></i>
+                            </div>
+                            <div class="btn btn-prev">
+                                <i class="fas fa-step-backward"></i>
+                            </div>
+                            <div class="btn btn-toggle-play">
+                                <i class="fas fa-pause icon-pause"></i>
+                                <i class="fas fa-play icon-play"></i>
+                            </div>
+                            <div class="btn btn-next">
+                                <i class="fas fa-step-forward"></i>
+                            </div>
+                            <div class="btn btn-random">
+                                <i class="fas fa-random"></i>
+                            </div>
+                        </div>
+                        <div class="music_control-progress">
+                            <span class="music_control-progress-time-start"></span>
+                            <input id="progress" class="progress" type="range" value="0"> 
+                            <span class="music_control-progress-time-duration"></span>
+                        </div>
+                        <audio id="audio" src=""></audio>
+                    </div>
+                    <!-- music control right -->
+                    <div class="music-control-right">
+                        <i class="icon_control fas fa-photo-video"></i>
+                        <i class="icon_control fas fa-microphone"></i>
+                        <i class="icon_control far fa-square"></i>
+                        <i class="volume-up fas fa-volume-up"></i>
+                        <i class="volume-mute fas fa-volume-mute"></i>
+                        <input type="range" class="volume" id="volume" min="0" max="1" step="0.1" value="0">
+                    </div>
+                </div>
+            </section>
+
+        </div>
+        <!-- Chức năng bật ra thông báo  -->
+        <div id="toasts">
+            <!-- <div class="toast warning">
+                <i class="fas fa-exclamation-circle"></i>
+                <span>This is a Warning message</span>
+                <span class="countdown"></span>
+            </div>
+            <div class="toast error">
+                <i class="fas fa-exclamation-triangle"></i>
+                <span>This is a Error message</span>
+                <span class="countdown"></span>
+            </div>  -->
+        </div>
+
+    </div>
+
+    
+
+</body>
+<script src="./main.js"></script>
+</html>
